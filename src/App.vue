@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <h1 class="text-center text-primary mt-5 fw-bold display-3">Coins</h1>
-    <input type="text" placeholder="search" @keyup="searchCoin" v-model="textSearch" class="form-control border border-primary text-primary fw-bold my-3">
+    <input type="text" placeholder="search a Coin" @keyup="searchCoin" v-model="textSearch" class="form-control border border-primary text-primary fw-bold my-3">
     <table class="table table-striped table-bordered">
       <thead class="bg-primary text-light fw-bold">
         <tr>
